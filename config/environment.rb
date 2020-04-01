@@ -26,6 +26,6 @@ ActiveRecord::Base.establish_connection(
 #   )
 # SQL
 
-ActiveRecord::Base.connection.execute(sql)
+# ActiveRecord::Base.connection.execute(sql)
 
 require_relative "../artist.rb"
